@@ -14,7 +14,7 @@ const Footer = () => {
                 '>
                     <div className='max-w-sm'>
                         <Link to={'/'} className='flex items-center gap-x-2'>
-                            <span className='font-[900] text-[24px]'>Casa<span className='font-[600] medium-20'>Central</span></span>
+                        <span className='font-[600] bold-24  text-secondary'>Real<span className=' text-tertiary'>Homes</span></span>
                         </Link>
                         <p className='py-4'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla recusandae voluptatibus excepturi nostrum cum delectus repellat?</p>
                         <div className='flexBetween pl-6 h-[3.3rem] bg-white w-full max-w-[366px] rounded-full ring-1 ring-slate-500/5'>
@@ -54,7 +54,7 @@ const Footer = () => {
                 </div>
             </div>
             {/* copyrights */}
-            <p className='text-white bg-tertiary medium-14 py-2 px-8 rounded-b-3xl flexBetween '><span>2024 CasaCentral</span><span>All rights reserved</span></p>
+            <p className='text-white bg-tertiary medium-14 py-2 px-8 rounded-b-3xl flexBetween '><span>2024 RealHomes</span><span>All rights reserved</span></p>
         </footer>
     )
 }

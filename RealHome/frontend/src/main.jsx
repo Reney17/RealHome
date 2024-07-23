@@ -10,8 +10,8 @@ import { MantineProvider } from '@mantine/core'; // Import MantineProvider
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Auth0Provider
-      domain='dev-omovp053spkrxhqy.uk.auth0.com'
-      clientId='ITgbi2ConyXMFJFyELFBoAsQ4qak88sq'
+      domain='dev-yw3o8hhq24xtipij.us.auth0.com'
+      clientId='aQ0jwHG3mB0pty0DzIJpAYOKCLEwPcAo'
       authorizationParams={{
         redirect_uri: "http://localhost:5173"
       }}
