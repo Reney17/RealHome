@@ -1,6 +1,4 @@
-Sure, here is the updated README file with the corrected port number for the frontend:
 
----
 
 # RealHome: A Real Estate Listing Platform
 
