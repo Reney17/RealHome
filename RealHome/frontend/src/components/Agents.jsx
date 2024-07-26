@@ -38,9 +38,11 @@ const agents = [
 
 const Agents = () => {
   return (
-    <section className="py-12 bg-primary">
-      <div className="max-padd-container">
-        <span className="medium-18">Dedicated professionals to help you find your perfect property!</span>
+    <section className="max-padd-container">
+      <div className="max-padd-container bg-primary py-16 xl:py-28 rounded-3xl">
+        <span className="medium-18">
+          Dedicated professionals to help you find your perfect property!
+        </span>
         <h2 className="h2">Our Expert Agents</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
           {agents.map((agent, index) => (
@@ -57,13 +59,13 @@ const Agents = () => {
                 <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <div className="text-white flexCenter flex-col gap-2">
                     <Link to={""} className="my-2">
-                      <FaFacebook className="text-xl"/>
+                      <FaFacebook className="text-xl" />
                     </Link>
                     <Link to={""} className="my-2">
-                      <FaTwitter className="text-xl"/>
+                      <FaTwitter className="text-xl" />
                     </Link>
                     <Link to={""} className="my-2">
-                      <FaLinkedin className="text-xl"/>
+                      <FaLinkedin className="text-xl" />
                     </Link>
                   </div>
                 </div>
