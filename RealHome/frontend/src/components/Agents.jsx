@@ -28,7 +28,7 @@ const agents = [
       "Specializes in residential properties and customer satisfaction.",
   },
   {
-    name: "Michael Brown",
+    name: "Nicolette Mashaba",
     title: "Agent",
     image: agent4,
     description:
